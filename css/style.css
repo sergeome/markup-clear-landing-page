@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0;
+}
+
+/*Common declarations*/
+@font-face {
+    font-family: "Gotham Thin";
+    src: url("../fonts/GOTHAM-THIN.TTF");
+}
+body {
+    font: normal 400 14px "Roboto", sans-serif;
+}
+h1 {
+    color: #567ba4;
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 28px;
+}
+h2 {
+    color: #567ba4;
+    font-family: "Gotham Thin", sans-serif;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #606060;
+}
+ul li {
+    list-style: none;
+}
+
+/*Wrapper*/
+.wrapper {
+    width: 1150px;
+    margin: 20px auto;
+}
+
+/*Header*/
+header {
+    overflow: hidden;
+    margin: 0 0 3px 0;
+}
+.logo-block {
+    display: block;
+    float: left;
+}
+.logo-block:hover{
+    opacity: 0.8;
+}
+.logo-block img {
+    float: left;
+}
+.title {
+    margin: 20px 0 0 100px;
+}
+.contacts {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 38px 0 0;
+    float: right;
+    color: #567ba4;
+    text-decoration: underline;
+}
+.contacts:hover {
+    opacity: 0.8;
+}
+
+/*Main navigation*/
+.main-navigation {
+    margin: 38px 0 0 0;
+    overflow: hidden;
+}
+ul.main-navigation li {
+    display: inline-block;
+    margin-right: 33px;
+    float: left;
+}
+ul.main-navigation li:last-child {
+    margin-right: 0;
+}
+ul.main-navigation li a {
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    padding: 23px 0;
+    text-align: center;
+    width: 160px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+ul.main-navigation li a:hover {
+    background: #567ba4;
+    color: #fff;
+}
+ul.main-navigation li a.active {
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    padding: 23px 0 0 0;
+    background: url("../images/menu-active.png") no-repeat top center;
+    height: 54px;
+    width: 172px;
+}
+
+/*Page Body*/
+.page-body{
+    clear: both;
+    margin: 37px 0 0;
+}
+.page-body a:hover, .sell:hover {
+    opacity: 0.8;
+}
+.sell {
+    float: right;
+}
+.offers {
+    overflow: hidden;
+    margin: 45px 0 0;
+}
+
+/*Offers Block*/
+ul.offers li{
+    display: inline-block;
+    position: relative;
+    margin: 0 35px 0 0;
+    float: left;
+    width: 325px;
+    height: 146px;
+    background: #f9f9f9 url("../images/offer-background.png") no-repeat 0 0;
+    padding: 18px 0 0 35px;
+}
+ul.offers li a{
+    display: block;
+    font: bold 24px "Roboto";
+    text-transform: uppercase;
+    overflow: hidden;
+    padding-top: 33px;
+}
+ul.offers li a:hover{
+    opacity: 0.7;
+}
+ul.offers li:last-child {
+    margin: 0;
+}
+ul.offers li a img {
+    float: left;
+    margin: -33px 35px 0 0;
+}
+ul.offers li:last-child a img {
+    margin-right: 30px;
+}
+
+/*Information Block*/
+.information {
+    margin: 36px 0 0;
+    padding: 20px 37px 16px 48px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+.information a img   {
+    float: left;
+    margin: -30px 20px 0 0;
+}
+.information a {
+    display: block;
+    font: 300 24px "Roboto", san-serif;
+    color: #5e7925;
+    padding: 30px 0 0;
+}
+.information section {
+    display: inline-block;
+}
+.tourists {
+    float: left;
+    margin: 0 147px 0 0;
+}
+.visit {
+    float: right;
+}
+
+/*Footer*/
+footer {
+    font: 400 12px "Roboto";
+    color: #8a8a8a;
+    margin: 40px 0 0;
+    border-top: 1px solid #e0e0e0;
+    padding: 36px 0;
+}
+.copyright {
+    float: left;
+}
+.footer-info {
+    float: right;
+}
